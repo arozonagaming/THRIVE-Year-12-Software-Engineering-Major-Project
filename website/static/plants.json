@@ -1,0 +1,227 @@
+[
+    {
+        "common_name": "African Violet",
+        "scientific_name": "Saintpaulia",
+        "description": "Small flowering plant with fuzzy leaves, often blooms indoors year-round.",
+        "max_temp_celsius": 27,
+        "min_temp_celsius": 18,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Saintpaulia"
+    },
+    {
+        "common_name": "Aloe Vera",
+        "scientific_name": "Aloe barbadensis miller",
+        "description": "Succulent plant known for its medicinal gel and minimal care needs.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 13,
+        "water_interval_days": 14,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Aloe_vera"
+    },
+    {
+        "common_name": "Areca Palm",
+        "scientific_name": "Dypsis lutescens",
+        "description": "Tropical palm with feathery fronds, ideal for indoor environments.",
+        "max_temp_celsius": 35,
+        "min_temp_celsius": 15,
+        "water_interval_days": 5,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Dypsis_lutescens"
+    },
+    {
+        "common_name": "Bird\u2019s Nest Fern",
+        "scientific_name": "Asplenium nidus",
+        "description": "Fern with wavy, glossy leaves that emerge from a central rosette.",
+        "max_temp_celsius": 27,
+        "min_temp_celsius": 16,
+        "water_interval_days": 4,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Asplenium_nidus"
+    },
+    {
+        "common_name": "Boston Fern",
+        "scientific_name": "Nephrolepis exaltata",
+        "description": "Graceful, arching fronds that thrive in humid indoor spaces.",
+        "max_temp_celsius": 24,
+        "min_temp_celsius": 13,
+        "water_interval_days": 3,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Nephrolepis_exaltata"
+    },
+    {
+        "common_name": "Calathea",
+        "scientific_name": "Calathea orbifolia",
+        "description": "Ornamental foliage plant known for its striking leaf patterns.",
+        "max_temp_celsius": 27,
+        "min_temp_celsius": 16,
+        "water_interval_days": 4,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Calathea"
+    },
+    {
+        "common_name": "Chinese Evergreen",
+        "scientific_name": "Aglaonema",
+        "description": "Low-light tolerant plant with patterned leaves, great for beginners.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 15,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Aglaonema"
+    },
+    {
+        "common_name": "Dieffenbachia",
+        "scientific_name": "Dieffenbachia",
+        "description": "Tropical plant with large, patterned leaves. Also called Dumb Cane.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 15,
+        "water_interval_days": 6,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Dieffenbachia"
+    },
+    {
+        "common_name": "Dracaena",
+        "scientific_name": "Dracaena marginata",
+        "description": "Long, spiky leaves make this an elegant, low-maintenance plant.",
+        "max_temp_celsius": 28,
+        "min_temp_celsius": 15,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Dracaena_marginata"
+    },
+    {
+        "common_name": "English Ivy",
+        "scientific_name": "Hedera helix",
+        "description": "Trailing vine perfect for hanging baskets or decorative pots.",
+        "max_temp_celsius": 24,
+        "min_temp_celsius": 10,
+        "water_interval_days": 5,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Hedera_helix"
+    },
+    {
+        "common_name": "Fiddle Leaf Fig",
+        "scientific_name": "Ficus lyrata",
+        "description": "Popular indoor tree with large, violin-shaped leaves.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 16,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Ficus_lyrata"
+    },
+    {
+        "common_name": "Jade Plant",
+        "scientific_name": "Crassula ovata",
+        "description": "Succulent with thick, fleshy leaves and woody stems.",
+        "max_temp_celsius": 24,
+        "min_temp_celsius": 10,
+        "water_interval_days": 14,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Crassula_ovata"
+    },
+    {
+        "common_name": "Lucky Bamboo",
+        "scientific_name": "Dracaena sanderiana",
+        "description": "Often grown in water, symbolizes good fortune and feng shui.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 18,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Dracaena_sanderiana"
+    },
+    {
+        "common_name": "Monstera Deliciosa",
+        "scientific_name": "Monstera deliciosa",
+        "description": "Large split leaves and tropical vibe, ideal for spacious rooms.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 18,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Monstera_deliciosa"
+    },
+    {
+        "common_name": "Oxalis",
+        "scientific_name": "Oxalis triangularis",
+        "description": "Distinctive purple leaves that open and close with the light.",
+        "max_temp_celsius": 25,
+        "min_temp_celsius": 15,
+        "water_interval_days": 5,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Oxalis_triangularis"
+    },
+    {
+        "common_name": "Peace Lily",
+        "scientific_name": "Spathiphyllum",
+        "description": "Elegant white flowers and air-purifying qualities.",
+        "max_temp_celsius": 29,
+        "min_temp_celsius": 16,
+        "water_interval_days": 5,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Spathiphyllum"
+    },
+    {
+        "common_name": "Peperomia",
+        "scientific_name": "Peperomia obtusifolia",
+        "description": "Compact plant with thick, shiny leaves. Great for desks.",
+        "max_temp_celsius": 26,
+        "min_temp_celsius": 15,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Peperomia"
+    },
+    {
+        "common_name": "Philodendron",
+        "scientific_name": "Philodendron hederaceum",
+        "description": "Trailing heart-shaped leaves, great for shelves or hanging.",
+        "max_temp_celsius": 28,
+        "min_temp_celsius": 15,
+        "water_interval_days": 6,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Philodendron"
+    },
+    {
+        "common_name": "Pothos",
+        "scientific_name": "Epipremnum aureum",
+        "description": "Fast-growing vine, tolerates low light and neglect.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 10,
+        "water_interval_days": 7,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Epipremnum_aureum"
+    },
+    {
+        "common_name": "Prayer Plant",
+        "scientific_name": "Maranta leuconeura",
+        "description": "Colorful foliage that folds up at night like hands in prayer.",
+        "max_temp_celsius": 27,
+        "min_temp_celsius": 15,
+        "water_interval_days": 4,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Maranta_leuconeura"
+    },
+    {
+        "common_name": "Rubber Plant",
+        "scientific_name": "Ficus elastica",
+        "description": "Glossy, dark green leaves and air-purifying properties.",
+        "max_temp_celsius": 29,
+        "min_temp_celsius": 15,
+        "water_interval_days": 6,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Ficus_elastica"
+    },
+    {
+        "common_name": "Snake Plant",
+        "scientific_name": "Sansevieria trifasciata",
+        "description": "Upright sword-shaped leaves, extremely hardy and drought-tolerant.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 10,
+        "water_interval_days": 14,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Sansevieria_trifasciata"
+    },
+    {
+        "common_name": "Spider Plant",
+        "scientific_name": "Chlorophytum comosum",
+        "description": "Easy to grow with arching leaves and baby plantlets.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 10,
+        "water_interval_days": 5,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Chlorophytum_comosum"
+    },
+    {
+        "common_name": "String of Pearls",
+        "scientific_name": "Senecio rowleyanus",
+        "description": "Trailing succulent with bead-like leaves, perfect for hanging.",
+        "max_temp_celsius": 25,
+        "min_temp_celsius": 13,
+        "water_interval_days": 10,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Senecio_rowleyanus"
+    },
+    {
+        "common_name": "ZZ Plant",
+        "scientific_name": "Zamioculcas zamiifolia",
+        "description": "Glossy leaves and extremely low maintenance. Thrives on neglect.",
+        "max_temp_celsius": 30,
+        "min_temp_celsius": 15,
+        "water_interval_days": 14,
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Zamioculcas"
+    }
+]

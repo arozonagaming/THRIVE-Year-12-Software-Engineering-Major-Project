@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<p>Thrive: Plant Monitoring System</p>
+<h1>Welcome, {{ user.first_name }} {{ user.last_name }}.</h1>
+
+<div class="card">
+    <h3>Welcome {{ user.first_name }}</h3>
+    <p>Today's date is 29/06/25</p>
+    <h3>02:04 pm</h3>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h3>Thursday, 03/06/25</h3>
+        <p>Overview of system status:</p>
+        <h1 id="system_status">--</h1>
+        <p id="system_status_message">Your plant system has been successfully connected and is now online.</p>
+    </div>
+
+    <div class="card">
+        <h3>Last Watered</h3>
+        <p>Last Time You Watered Plant:</p>
+        <h1 id="last_watered"></h1>
+        <p>The system will remind you when to water next, ensuring your plant stays healthy and well.</p>
+    </div>
+
+    <div class="card">
+        <h3>Soil Moisture</h3>
+        <p>Soil Moisture Percentage:</p>
+        <h1 id="soil_moisture"></h1>
+        <p id="soil_moisture_message">The system will remind you when to water next, ensuring your plant stays healthy and well.</p>
+    </div>
+
+    <div class="card">
+        <h3>Temperature</h3>
+        <p>Temperature of Plant Surroundings</p>
+        <h1><span id="celsius"></span></h1>
+        <p>Temperature levels are within the ideal range — your plant is in a comfortable environment.</p>
+    </div>
+</div>
+<div class="graph">
+    <h1>Aloe Barbadensis Miller</h1>
+    <h2>Common Name: Aloe Vera</h2>
+    <h2>User Identification Number: User 1</h2>
+    <p>This is your User ID.</p>
+    <div class="card">
+        <h3>Watering Intervals</h3>
+        <p>Watering once every:</p>
+        <h1>7 Days</h1>
+        <p>This is how often you should water. However the system will remind you when to water next.</p>
+    </div>
+    <div class="card">
+        <h3>Temperature Range</h3>
+        <p>Temperature range between:</p>
+        <h1>7 Days</h1>
+        <p>This is how often you should water. However the system will remind you when to water next.</p>
+    </div>
+</div>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            {% if category == 'error' %}
+                <p role="alert">{{ message }}</p>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
+<script src="{{ url_for('static', filename='home.js') }}"></script>
+
+{% endblock %}
