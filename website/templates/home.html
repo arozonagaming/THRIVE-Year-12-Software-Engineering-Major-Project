@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<p>Thrive: Plant Monitoring System</p>
+<h1>Welcome, {{ user.first_name }} {{ user.last_name }}.</h1>
+
+<div class="container">
+    <div class="information scroll-section">    
+        <div class="card">
+            <h3>Last Watered</h3>
+            <p>Last Time You Watered Plant:</p>
+            <h1 id="last_watered"></h1>
+            <p>The system will remind you when to water next, ensuring your plant stays healthy and well.</p>
+        </div>
+    
+        <div class="card">
+            <h3>Soil Moisture</h3>
+            <p>Soil Moisture Percentage:</p>
+            <h1 id="soil_moisture"></h1>
+            <p id="soil_moisture_message">The system will remind you when to water next, ensuring your plant stays healthy and well.</p>
+        </div>
+    
+        <div class="card">
+            <h3>Temperature</h3>
+            <p>Temperature of Plant Surroundings</p>
+            <h1><span id="celsius"></span></h1>
+            <p>Temperature levels are within the ideal range — your plant is in a comfortable environment.</p>
+        </div>
+    </div>
+    <div class="graph">
+        <h1>{{ plant_data.scientific_name }}r</h1>
+        <h2>Common Name: {{ plant_data.common_name }}</h2>
+        <h2>User Identification Number: {{ user.user_id }}</h2>
+        <p>This is your User ID.</p>
+        <div class="card">
+            <h3>Watering Intervals</h3>
+            <p>Watering once every:</p>
+            <h1>{{ water_interval_days }}</h1>
+            <p>This is how often you should water. However the system will remind you when to water next.</p>
+        </div>
+        <div class="card">
+            <h3>Temperature Range</h3>
+            <p>Temperature range between:</p>
+            <h1>{{ plant_data.min_temp_celsius }} - {{ plant_data.max_temp_celsius }}ºC</h1>
+            <p>{{ plant_data.common_name }} should be in conditions where the temperature should be around {{ plant_data.min_temp_celsius }}ºC to {{ plant_data.max_temp_celsius }}ºC</p>
+        </div>
+    </div>
+</div>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            {% if category == 'error' %}
+                <p role="alert">{{ message }}</p>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
+<script src="{{ url_for('static', filename='home.js') }}"></script>
+
+{% endblock %}

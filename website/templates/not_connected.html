@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<form method="POST">
+    <h1>Not Connected</h1>
+    <button type="submit">Reconnect</button>
+</form>
+{% endblock %}
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            {% if category == 'error' %}
+                <p role="alert">{{ message }}</p>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endwith %}

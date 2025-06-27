@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{% endblock %} | Thrive</title>
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d4a4457d9a.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="black">
+        <nav class="navbar">
+            <div class="major">
+                <a id="home" href="/"><i class="fa-solid fa-house"><p>a</p></i></a>
+                <a id="about_plant" href="/about_plant"><i class="fa-solid fa-circle-exclamation"><p>a</p></i></a>
+                <a id="settings" href="/settings"><i class="fa-solid fa-gear"><p>a</p></i></a>
+            </div>
+            <div class="minor">
+                <a id="logout" href="/logout"><i class="fa-solid fa-arrow-left"><p>a</p></i></a>
+            </div>
+        </nav>
+
+        <div class="main">{% block content %}{% endblock %}</div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
