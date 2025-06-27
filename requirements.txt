@@ -1,8 +1,0 @@
-flask
-Flask-SQLAlchemy
-flask-login
-mysql-connector-python
-pyscopg2
-requests
-setuptools
-urllib3
